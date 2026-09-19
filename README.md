@@ -21,7 +21,7 @@ go run .
 The intended way to run and setup the bot. This shell script will setup systemd service under a dedicated `dzemo` user, with the bot token encrypted with `systemd-creds`. You don't have to build the bot yourself, as the shell script will simply pull the latest release of the bot and all the necessary files.
 
 ```bash
-curl -fsSL -o install.sh github.com/zijoziks/dzemo/raw/master/deploy/install.sh | bash
+curl -fsSL github.com/zijoziks/dzemo/raw/master/deploy/install.sh | bash
 ```
 
 All other shell scripts will be located at `/opt/dzemo/deploy`.
